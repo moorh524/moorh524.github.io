@@ -14,10 +14,20 @@ body {
     bottom:20 px;
     left: 20 px;
     position: fixed;
-    transform: rotate(3deg);
+    transform: rotate(2deg);
     
 }
 
+    .circle {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 20px;
+        right: 100px;
+        border-radius: 20px;
+        
+    }
 
 
 a {
