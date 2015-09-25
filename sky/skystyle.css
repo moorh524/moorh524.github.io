@@ -1,0 +1,52 @@
+body {
+    background-color: #ffcc33;
+    color: white;
+    font-size: 50px;
+    font-family: "futura", century, arial, sans-serif;
+    
+}
+
+.spacer {
+    margin-bottom: 300px;
+}
+ .circle {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 20px;
+        right: 15px;
+        border-radius: 90px;
+ }    
+ .circle2 {
+     background-color: blue;
+     width: 40px;
+     height: 40px;
+     position: fixed;
+     top: 70px;
+     right: 1px;
+     border-radius: 40px;
+     
+ }
+ 
+ .circle3 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 8px;
+    right: px;
+    border-radius: 300px;
+    
+ }
+ 
+p {
+    background-color: white;
+    font-weight: bold;
+}
+
+h {
+
+    color:black;
+    position:fixed;
+}
