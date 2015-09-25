@@ -1,0 +1,39 @@
+body {
+    background-color: #ffcc33;
+    color: white;
+    font-size: 36px;
+    font-family: "futura", century, arial, sans-serif;
+    
+}
+
+ .circle {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 20px;
+        right: 15px;
+        border-radius: 90px;
+ }    
+ .circle2 {
+     background-color: blue;
+     width: 40px;
+     height: 40px;
+     position: move;
+     top: 50px;
+     right: 39px;
+     border-radius: 40px;
+     
+ }
+
+
+p {
+    background-color: white;
+    font-weight: bold;
+}
+
+h {
+
+    color:black;
+    position:move;
+}
