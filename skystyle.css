@@ -25,8 +25,18 @@ body {
      border-radius: 40px;
      
  }
-
-
+ 
+ .circle3 {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 1px;
+    right: 70px;
+    border-radius: 100px;
+    
+ }
+ 
 p {
     background-color: white;
     font-weight: bold;
