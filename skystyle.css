@@ -1,7 +1,7 @@
 body {
     background-color: #ffcc33;
     color: white;
-    font-size: 36px;
+    font-size: 50px;
     font-family: "futura", century, arial, sans-serif;
     
 }
@@ -35,5 +35,5 @@ p {
 h {
 
     color:black;
-    position:move;
+    position:fixed;
 }
