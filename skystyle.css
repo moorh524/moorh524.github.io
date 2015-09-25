@@ -27,13 +27,13 @@ body {
  }
  
  .circle3 {
-    background-color: orange;
-    width: 100px;
-    height: 100px;
+    background-color: black;
+    width: 30px;
+    height: 30px;
     position: fixed;
-    top: 1px;
-    right: 70px;
-    border-radius: 100px;
+    top: 8px;
+    right: px;
+    border-radius: 300px;
     
  }
  
