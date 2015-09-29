@@ -3,6 +3,7 @@ body {
     color: white;
     font-size: 36px;
     font-family: "futura", century, arial, sans-serif;
+    text-align:center;
     
 }
 
@@ -18,7 +19,7 @@ body {
 }
 
     .circle {
-        background-color: blue;
+        background-color: red;
         width: 100px;
         height: 100px;
         position: fixed;
@@ -40,11 +41,6 @@ a{
 }
 
 p {
-    background-color: pink;
+    background-color: black;
     font-weight: bold;
     
-}
-
-.special {
-    background-color: blue;
-}
