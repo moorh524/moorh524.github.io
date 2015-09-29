@@ -46,12 +46,50 @@ body {
      width: 30px;
      height: 30px;
      position: fixed;
-     top: 80px;
+     top: 8px;
      right: 300px;
      border-radius: 400px;
  
  
  }
+ 
+ .circle5 {
+     background-color: black;
+     width: 100px;
+     height: 100px;
+     position: fixed;
+     top: 100px;
+     right: 700px;
+     border-radius: 700px;
+ }
+ 
+ 
+
+ 
+ .circle6 {
+     background-color: black;
+     width: 60px;
+     height: 60px;
+     position: fixed;
+     top: 70px;
+     right: 500px;
+     border-radius: 500px;
+ }
+ 
+ 
+
+ 
+ .circle7 {
+     background-color: red;
+     width: 60px;
+     height: 60px;
+     position: fixed;
+     top: 76px;
+     right: 700px;
+     border-radius: 450px;
+     
+ }
+ 
  
 p {
     background-color: white;
