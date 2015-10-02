@@ -61,8 +61,16 @@ body {
      top: 100px;
      right: 700px;
      border-radius: 700px;
+    -webkit-animation: myfirst 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
  }
- 
+@-webkit-keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
  
 
  
@@ -92,13 +100,65 @@ body {
  
  
  .circle8 {
-     background-color: red;
+     background-color: black;
      width: 100px;
      height: 100px;
      position: fixed;
      top: 120px;
      left: 1px;
      border-radius: 300px;
+ }
+ 
+ .circle9 {
+     background-color:black;
+     width: 150px;
+     height: 150px;
+     position: fixed;
+     top: 300px;
+     right:20px;
+     border-radius: 400px;
+ }
+ 
+ .circle10 {
+     background-color: black;
+     width: 200px;
+     height: 200px;
+     position: fixed;
+     top: 350px;
+     right: 500px;
+     border-radius: 500px;
+ }
+ 
+
+ .circle11 {
+     background-color: black;
+     width: 100px;
+     height: 100px;
+     position: fixed;
+     top: 250px;
+     right: 900px;
+     border-radius: 250px;
+ }
+ 
+ .circle12 {
+     background-color: black;
+     width: 300px;
+     height: 300px;
+     position: fixed;
+     top: 300px;
+     right: 950px;
+     border-radius: 300px;
+ }
+ 
+ 
+ .circle13 {
+     background-color: red;
+     width: 130px;
+     height: 130px;
+     position: fixed;
+     top: 330px;
+     right: 930px;
+     border-radius: 130px;
  }
  
  
