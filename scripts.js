@@ -1,3 +1,22 @@
+$("body").css("background-color","pink");
+
+$("h1").html("Welcome to JQUERY");
+
+$(".bigredbutton").click(function() {
+    console.log("you clicked it")
+    $("h1").toggleClass("white")
+});
+
+$(".bigredbutton").mousedown(function() {
+    console.log("you clicked it")
+    $("h1").css("background-color", "lime")
+});
+
+$(".bigredbutton").mousemove(function() {
+    console.log("mouse moved")
+    $("h1").css("background-color", "lime")
+});
+
 console.log("Random String of Numbers and Symbols");
 console.log("*************");
 
@@ -16,5 +35,13 @@ for (var increment = 5; increment < symbols.length; increment++) {
         console.log(exclamation);
         exclamation = exclamation + symbols[Math.floor(Math.random()*symbols.length)];
         //console.log(Math.random()*10);
+        
+
     }
+}
+
+function addNums(num1,num2) {
+    var sum = num1 +num2;
+    return sum; 
+    
 }
