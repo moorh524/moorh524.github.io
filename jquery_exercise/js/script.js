@@ -36,7 +36,7 @@ $("#toggle").click(function(){
     if (clicked == false) {
     $("#status").html("GO")
     $("#status").css("background-color","green")
-    $("#toggle").html("Stop")
+    $("#toggle").html("STOP")
    
         $("#status").mouseenter(function(){
         $("#cat").show("#cat")
