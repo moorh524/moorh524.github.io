@@ -1,0 +1,44 @@
+body {
+    background-color: #ffcc33;
+    color: white;
+    font-size: 50px;
+    font-family: "didot", century, arial, sans-serif;
+    text-align: center;
+}
+
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #e68d21;
+  margin: 86.60px 0;
+  border-left: solid 33px #5b3604;
+  border-right: solid 33px #5b3604;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 10.9340px;
+}
+
+.hexagon:before {
+  top: -106.0660px;
+  border-top: solid 46.6690px #5b3604;
+  border-right: solid 46.6690px #5b3604;
+}
+
+.hexagon:after {
+  bottom: -106.0660px;
+  border-bottom: solid 46.6690px #5b3604;
+  border-left: solid 46.6690px #5b3604;
+}
+
