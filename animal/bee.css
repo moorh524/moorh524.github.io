@@ -27,17 +27,17 @@ body {
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: inherit;
-  left: 10.9340px;
+  left: 21px;
 }
 
 .hexagon:before {
-  top: -106.0660px;
+  top: -129px;
   border-top: solid 46.6690px #5b3604;
   border-right: solid 46.6690px #5b3604;
 }
 
 .hexagon:after {
-  bottom: -106.0660px;
+  bottom: -129px;
   border-bottom: solid 46.6690px #5b3604;
   border-left: solid 46.6690px #5b3604;
 }
