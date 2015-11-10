@@ -12,11 +12,17 @@ footer {
   font-size: 70px;
   font-family: "futura", helvetica, arial, sans-serif;
   text-align: right;
+  position: relative;
+  left: 0px;
+  bottom: -300px;
+  height: 0px;
+  width: 100%;
 }
 
 .hexagon {
-  position: relative;
+  position: absolute;
   width: 300px; 
+  top: 330px;
   height: 173.21px;
   background-color: #e68d21;
   margin: 86.60px 0;
