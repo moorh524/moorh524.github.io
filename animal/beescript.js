@@ -1,21 +1,32 @@
-// this is me trying to make a for loop
-var i = 4;
-var len = hexagon.length;
-var text = "";
-for (; i < len; i++) { 
-    text += hexagon[i] + "<br>";
-}
+// $(window).keypress(function(event) {
+// 	console.log(event);
+// 	//user press r 
+// 	if(event.keyCode == 114) {
+// 		$("body").css("background-color","red");
+// 		}
+// 	//user press g
+// 		console.log(event);
+// 		if(event.keyCode == 103) {
+// 		$("body").css("background-color","lime");
+// 		}
+// 	//user press b 
+// 		console.log(event);
+// 		if(event.keyCode == 98) {
+// 		$("body").css("background-color","blue");
+// 		}
+// });
 
-for (i = 0; i < hexagon.length; i++) { 
-    text += hexagon[i] + "<br>";
-}
+// $(window).resize(function(event) {
+// 	console.log(event); 
+// 	if ($(window).width() > 800) {
+// 		$(".button").css("width","200px")
+// 	}
+// 	});
 
-// This is an attempt to make the bees swarm around
 var balls;
 
 function setup() {
-    //window width and window height
-	createCanvas(1250px, 357px);
+	createCanvas(windowWidth, windowHeight);
 
 	// create a collection of balls
 	balls = [];
@@ -23,8 +34,9 @@ function setup() {
 		balls[i] = new Ball();
 	}
 }
+
 function draw() {
-	background(125, 125, 125);
+	background(230, 141, 33);
 
 	strokeWeight(4);
 
@@ -34,6 +46,8 @@ function draw() {
 		balls[i].draw();
 	}
 }
+
+
 // Define the idea of a "ball", including its position, speed, and how it behaves.
 var Ball = function() {
 	console.log("Creating a Ball.");
