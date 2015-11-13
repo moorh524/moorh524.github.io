@@ -67,6 +67,6 @@ Ball.prototype.step = function() {
 }
 
 Ball.prototype.draw = function() {
-	fill(225, 150, 150);
+	fill(153, 0, 0);
 	ellipse(this.x, this.y, 50, 50);
 }
