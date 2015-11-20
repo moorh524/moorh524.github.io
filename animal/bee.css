@@ -12,6 +12,7 @@ body {
   background-color: black;
   position: relative;
   top: 50px;
+  
 }
 
 footer {
@@ -36,6 +37,11 @@ footer {
   margin: 86.60px 0;
   border-left: solid 33px #5b3604;
   border-right: solid 33px #5b3604;
+}
+
+canvas {
+  position: relative;
+  z-index: -200;
 }
 
 .hexagon:before,
@@ -304,18 +310,11 @@ footer {
 
 
 ball {
-   background-color: black;
+   background-color: green;
    width: 40px;
    height: 40px;
    position: relative;
    top: 70px;
    right: 1px;
    border-radius: 40px;
-}
-
-@media only screen and (max-width: 400px) {
-  .button {
-    background-color: purple;
-  }
-  
 }

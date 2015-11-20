@@ -26,7 +26,9 @@
 var balls;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(displayWidth, displayHeight);
+	
+
 
 	// create a collection of balls
 	balls = [];
@@ -53,8 +55,11 @@ var Ball = function() {
 	console.log("Creating a Ball.");
 	this.x = width * .5;
 	this.y = height * .5;
-	this.speedX = random(-10, 10);
+	console.log("this x: " + this.x);
+	this.speedX = random(-5, 10);
 	this.speedY = random(-10, 10);
+	console.log(this.speedX);
+	console.log(this.speedY);
 }
 
 Ball.prototype.step = function() {
@@ -70,3 +75,5 @@ Ball.prototype.draw = function() {
 	fill(153, 0, 0);
 	ellipse(this.x, this.y, 50, 50);
 }
+
+console.log("hello");
