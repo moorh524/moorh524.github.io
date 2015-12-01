@@ -3,9 +3,10 @@ body { background-color: white;
         font-size: 50px;
         font-family: didot;
         position: fixed;
-h1 {
+}
+/*h1{
     text-align: center;
-}     
+}*/    
 
 
 
@@ -15,17 +16,15 @@ h1 {
   top: 330px;
   height: 173.21px;
   background-color: #e68d21;
-  margin: 86.60px 0;
+  margin: 100px;
   border-left: solid 33px #5b3604;
   border-right: solid 33px #5b3604;
   display: block;
-  margin-left: auto;
-  margin-right: auto
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin:5% 35%;
 }
-canvas {
-  position: relative;
-  z-index: -200;
-}
+
 
 .hexagon:before,
 .hexagon:after {
