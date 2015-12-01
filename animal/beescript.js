@@ -1,27 +1,7 @@
-// $(window).keypress(function(event) {
-// 	console.log(event);
-// 	//user press r 
-// 	if(event.keyCode == 114) {
-// 		$("body").css("background-color","red");
-// 		}
-// 	//user press g
-// 		console.log(event);
-// 		if(event.keyCode == 103) {
-// 		$("body").css("background-color","lime");
-// 		}
-// 	//user press b 
-// 		console.log(event);
-// 		if(event.keyCode == 98) {
-// 		$("body").css("background-color","blue");
-// 		}
-// });
 
-// $(window).resize(function(event) {
-// 	console.log(event); 
-// 	if ($(window).width() > 800) {
-// 		$(".button").css("width","200px")
-// 	}
-// 	});
+
+
+//bouncing balls
 
 var balls;
 
@@ -75,5 +55,3 @@ Ball.prototype.draw = function() {
 	fill(153, 0, 0);
 	ellipse(this.x, this.y, 50, 50);
 }
-
-console.log("hello");
