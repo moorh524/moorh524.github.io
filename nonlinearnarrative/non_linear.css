@@ -11,29 +11,30 @@ html,  body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #660066;
+    background-color: #3c004d;
     opacity: 0.9;
     filter: alpha(opacity=90);
+    
 }
 
-.red {
+.purpleright{
     width: 50%;
     height: 50%;
     position: fixed;
     top: 0;
     right: 40;
-    background-color: #800000;
+    background-color: #8b00b3;
     opacity: 0.9;
     filter: alpha(opacity=90);
 }
 
-.blue {
+.purplerightbottom {
    width: 50%;
     height: 50%;
     position: fixed;
     bottom: 0;
     right: 40;
-    background-color: #002266;
+    background-color: #f5ccff;
     opacity: 0.9;
     filter: alpha(opacity=90); 
 }
@@ -42,12 +43,11 @@ html,  body {
     width: 50%;
     height: 50%;
     position: fixed;
-    top: 600px;
-    left: 100px;
-    margin-bottom: 90;
-    background-color: #334d00;
+    bottom: 0;
+    right: 600;
+    background-color: #e166ff;
     opacity: 0.9;
-    filter: alpha(opacity=90);
+    filter: alpha(opacity=90); 
 }
 
 .purplewindow {
