@@ -19,6 +19,18 @@ html,  body {
     
 }
 
+.first {
+    background-color: #3c004d;
+    opacity: 0.9;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right: 1100px;
+    border-radius: 90px;
+}
+
 .purpleright{
     width: 50%;
     height: 50%;
@@ -28,6 +40,18 @@ html,  body {
     background-color: #8b00b3;
     opacity: 0.9;
     filter: alpha(opacity=90);
+}
+
+.second {
+    background-color: #8b00b3;
+    opacity: 0.9;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right: 300px;
+    border-radius: 90px;
 }
 
 .purplerightbottom {
@@ -41,15 +65,39 @@ html,  body {
     filter: alpha(opacity=90); 
 }
 
+.fourth {
+    background-color: #f5ccff;
+    opacity: 0.9;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 700px;
+    right: 300px;
+    border-radius: 90px;
+}
+
 .green {
     width: 50%;
     height: 50%;
     position: fixed;
     bottom: 0;
-    right: 600;
+    right: 680px;
     background-color: #e166ff;
     opacity: 0.9;
     filter: alpha(opacity=90); 
+}
+
+.third {
+    background-color: #e166ff;
+    opacity: 0.9;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 700px;
+    right: 1100px;
+    border-radius: 90px;
 }
 
 .purplewindow {
