@@ -6,28 +6,9 @@ body {
     text-align: center;
 }
 
-.circle: hover {
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-interation-count: infinite;
-    
-}
 
-@keyframes example {
-    from {
-        background-color: red;
-        
-    }
-    to {
-        background-color: black;
-        
-    }
-    
 
-.spacer {
-    margin-bottom: 300px;
-}
+
  .circle {
         background-color: red;
         width: 100px;
@@ -37,6 +18,7 @@ body {
         right: 15px;
         border-radius: 90px;
  }    
+ 
  .circle2 {
      background-color: black;
      width: 40px;
