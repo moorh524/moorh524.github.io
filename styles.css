@@ -51,4 +51,5 @@ p {
     position: fixed;
     top: 40px;
     border-radius: 50px;
-    line-height: ;
+    line-height: 10px;
+}
