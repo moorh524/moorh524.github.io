@@ -6,13 +6,21 @@ h1
     font-family: "gill-sans", sans-serif;
     }
     
-h2 
-    {
+.left-nav {
     font-size: 40px;
     color: black;
     text-align: right;
     font-family: "gill-sans" sans-serif;
-    }
+    position:fixed;
+    top:30px;
+    right:30px;
+}
+
+.right-nav {
+    position:fixed;
+    top:30px;
+    left:30px;
+}
     
 body 
     {
