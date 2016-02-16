@@ -27,3 +27,8 @@ body
     font-family: "gill-sans", sans-serif;
     color: black;
     }
+    
+img 
+    {
+        background-image: url("welcome.jpg");
+    }
