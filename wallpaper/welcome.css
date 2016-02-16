@@ -17,6 +17,7 @@ h1
 }
 
 .right-nav {
+    font-size: 40px;
     position:fixed;
     top:30px;
     right:30px;
@@ -31,4 +32,5 @@ body
 img 
     {
         background-image: url("welcome.jpg");
+        z-index: -1;
     }
