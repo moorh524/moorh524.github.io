@@ -2,7 +2,7 @@ h1 { text-align: center;
     color: black;
     font-size: 70px;
     font-family: sans-serif;
-    position: fixed; 
+    position: absolute; 
 }
 
 * {
