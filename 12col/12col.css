@@ -13,13 +13,13 @@
 .boxRed{
 	float:left;
 	width:100px;
-	background:red;
+	background:white;
 	height:100px;
 }
 
 .boxBlue{
 	float:left;
 	width:100px;
-	background:blue;
+	background:black;
 	height:100px;
 }
