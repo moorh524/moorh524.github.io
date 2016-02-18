@@ -1,8 +1,21 @@
+* {
+    font-family: arial;
+    color: black;
+    background-color: yellow;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+}
+
+
 h1 { text-align: center;
     color: black;
     font-size: 70px;
     font-family: sans-serif;
-    position: absolute; 
+    background-color:yellow;
+    width:400px;
 }
 
 p {
@@ -10,36 +23,32 @@ p {
 }
 
 
-* {
-    font-family: arial;
-    color: black;
-}
-
-
-html { 
-  background: url(swirl.jpg) no-repeat center center fixed; 
+.bg { 
+  top:0;
+  position:absolute;
+  background: url(swirl.jpg) repeat-y 0 0; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width:100%;
+  min-height:4000px;
+  z-index:-1;
+  margin:0;
+  padding:0;
 }
 
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+.wrap {
+  top:75px;
+  position:absolute;
+  background: white;
+  width:100%;
+  height:0vh;
 }
-.parallax__layer {
+
+.wrap2 {
+  top: 2000px;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px);
+  width:100%;
+  background:yellow;
 }

@@ -8,8 +8,17 @@
 	display:block;
 }
 
+h1 {
+	font-size: 90px;
+	font-family: futura;
+	text-align: center;
+}
 
-
+h2 {
+	font-size: 90px;
+	font-family: futura;
+	text-align: center;
+}
 .boxRed{
 	float:left;
 	width:100px;
@@ -19,7 +28,7 @@
 
 .boxBlue{
 	float:left;
-	width:100px;
+	width:200px;
 	background:black;
 	height:100px;
 }
