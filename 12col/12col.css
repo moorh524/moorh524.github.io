@@ -1,0 +1,25 @@
+*{margin:0; padding:0;
+}
+
+#container{
+	width:1200px;
+	background:#02FB65;
+	height:1200px;
+	display:block;
+}
+
+
+
+.boxRed{
+	float:left;
+	width:100px;
+	background:red;
+	height:100px;
+}
+
+.boxBlue{
+	float:left;
+	width:100px;
+	background:blue;
+	height:100px;
+}
