@@ -35,10 +35,12 @@ body
   left: 50%;
   transform: translate(-50%, -50%);
   
-  color:red;
-  font-size:50px;
+  color:black;
+  font-size:30px;
   border:solid red 2px;
-  padding: 20px;
+  padding: 90px;
+  padding-top: 5700px;
+  text-align: justify;
 }
 
 html { 
