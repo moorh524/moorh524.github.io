@@ -61,3 +61,36 @@ p {
   width:100%;
   background:yellow;
 }
+
+.catholic {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 400px;
+  
+}
+
+.hamlet {
+  margin-left: 500px;
+  position: absolute;
+  margin-top: 410px;
+}
+
+.wallpaper {
+  margin-left: 40px;
+  position: absolute;
+  margin-top: 235px;
+}
+
+.grid {
+  margin-left: 800px;
+  position: absolute;
+  margin-top: 510px;
+  
+}
+
+.cc {
+  margin-right: 20px;
+  position: absolute;
+  margin-top: 240px;
+}
+
