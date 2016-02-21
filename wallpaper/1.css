@@ -1,9 +1,21 @@
-h1
+html { 
+  background: url(1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h4
     {
     text-align: center;  
-    font-size: 60px;
+    font-size: 40px;
     color: black;
     font-family: "gill-sans", sans-serif;
+    margin-top: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
     }
     
 .left-nav {
@@ -12,7 +24,7 @@ h1
     text-align: right;
     font-family: "gill-sans" sans-serif;
     position:fixed;
-    top:30px;
+    top: 30px;
     left:30px;
 }
 
@@ -29,24 +41,34 @@ body
     color: black;
     }
     
-.centered-box {
+.leftcentered-box {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 410px;
+  left: 28%;
+  width: 450px;
+  transform: translate(-50%, 1%);
   
   color:black;
-  font-size:30px;
-  border:solid red 2px;
-  padding: 90px;
-  padding-top: 5700px;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
   text-align: justify;
+
 }
 
-html { 
-  background: url(1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+.rightcentered-box {
+  position: absolute;
+  top: 3px;
+  left: 115%;
+  width: 450px;
+  transform: translate(-50%, 1%);
+  
+  color:black;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
+  text-align: justify;
+
 }
+
