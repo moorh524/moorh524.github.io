@@ -1,4 +1,11 @@
 
+h1
+    {
+    text-align: center;  
+    font-size: 70px;
+    color: black;
+    font-family: "gill-sans", sans-serif;
+    }
 h4
     {
     text-align: center;  
@@ -17,25 +24,46 @@ h4
     text-align: right;
     font-family: sans-serif;
     position:fixed;
-    top: 30px;
+    top: 90px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:30px;
+    top:90px;
     right:30px;
     font-family: sans-serif;
 }
 
-.centered-box {
+.leftcentered-box {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 410px;
+  left: 28%;
+  width: 450px;
   transform: translate(-50%, 1%);
-  top: 200px;
-  font-family: sans-serif;
-  font-size:50px;
-  padding: 20px;
+  
+  color:black;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
+  text-align: justify;
+  font-family: gill-sans, sans-serif;
+
+}
+
+
+.rightcentered-box {
+  position: absolute;
+  top: 3px;
+  left: 115%;
+  width: 450px;
+  transform: translate(-50%, 1%);
+  
+  color:black;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
+  text-align: justify;
+  font-family: gill-sans, sans-serif;
 }

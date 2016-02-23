@@ -21,14 +21,14 @@ p   {
     text-align: right;
     font-family: "gill-sans" sans-serif;
     position:fixed;
-    top:30px;
+    top:90px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:30px;
+    top:90px;
     right:30px;
 }
     
