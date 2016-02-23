@@ -6,6 +6,10 @@ html {
   background-size: cover;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 h1
     {
     text-align: center;  

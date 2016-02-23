@@ -5,6 +5,10 @@ h1
     color: black;
     font-family: "gill-sans", sans-serif;
     }
+a:link {
+    text-decoration: none;
+}
+
     
 .left-nav {
     font-size: 40px;
