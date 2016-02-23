@@ -38,7 +38,7 @@ h4
 
 .leftcentered-box {
   position: absolute;
-  top: 410px;
+  top: 510px;
   left: 28%;
   width: 450px;
   transform: translate(-50%, 1%);
@@ -48,7 +48,6 @@ h4
   padding: 160px;
   padding-top: 0px;
   text-align: justify;
-  font-family: gill-sans, sans-serif;
 
 }
 
@@ -65,5 +64,7 @@ h4
   padding: 160px;
   padding-top: 0px;
   text-align: justify;
-  font-family: gill-sans, sans-serif;
+
 }
+
+
