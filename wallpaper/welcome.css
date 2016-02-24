@@ -10,10 +10,9 @@ a:link {
     text-decoration: none;
 }
 a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
-
+a:hover, a:active { text-decoration: none; color:white }
 
 h2
     {
@@ -67,7 +66,11 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 1000px;
+  width: 100%;
+  
 }
+
     
 /*.welcome { */
 /*  top:0;*/

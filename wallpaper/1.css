@@ -77,9 +77,7 @@ body
   padding-top: 0px;
   text-align: justify;
   
-  -ms-transform: skewX(20deg); /* IE 9 */
-    -webkit-transform: skewX(20deg); /* Safari */
-    transform: skewX(20deg);
+ 
 
 }
 
