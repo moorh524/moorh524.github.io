@@ -33,11 +33,11 @@ a:hover, a:active { text-decoration: none; color:white }
 
 .centered-box {
   position: absolute;
-  top: 50%;
+  top: 510px;
   left: 50%;
   transform: translate(-50%, 1%);
-  top: 200px;
   font-family: sans-serif;
-  font-size:50px;
+  font-size:25px;
   padding: 20px;
+  text-align: justify;
 }

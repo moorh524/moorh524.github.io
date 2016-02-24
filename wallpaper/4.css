@@ -59,9 +59,9 @@ h4
   text-align: justify;
   font-family: sans-serif;
   
-   -ms-transform: skewX(20deg); /* IE 9 */
-    -webkit-transform: skewX(20deg); /* Safari */
-    transform: skewX(20deg);
+   -ms-transform: skewX(3deg); /* IE 9 */
+    -webkit-transform: skewX(3deg); /* Safari */
+    transform: skewX(3deg);
 
 }
 
@@ -80,9 +80,9 @@ h4
   text-align: justify;
   font-family: sans-serif;
   
-   -ms-transform: skewX(20deg); /* IE 9 */
-    -webkit-transform: skewX(20deg); /* Safari */
-    transform: skewX(20deg);
+   -ms-transform: skewX(3deg); /* IE 9 */
+    -webkit-transform: skewX(3deg); /* Safari */
+    transform: skewX(3deg);
 
 }
 

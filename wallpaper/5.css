@@ -16,7 +16,7 @@ a:hover, a:active { text-decoration: none; color:white }
 
 h4
     {
-    text-align: center;  
+    text-align: justify;  
     font-size: 40px;
     color: black;
     font-family: "gill-sans", sans-serif;
@@ -44,13 +44,44 @@ h4
     font-family: sans-serif;
 }
 
-.centered-box {
+.leftcentered-box {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 510px;
+  left: 28%;
+  width: 450px;
   transform: translate(-50%, 1%);
-  top: 200px;
+  
+  color:black;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
+  text-align: justify;
   font-family: sans-serif;
-  font-size:50px;
-  padding: 20px;
+  
+  -ms-transform: skewX(7deg); /* IE 9 */
+    -webkit-transform: skewX(7deg); /* Safari */
+    transform: skewX(7deg);
+ 
+
+}
+
+
+.rightcentered-box {
+  position: absolute;
+  top: 3px;
+  left: 115%;
+  width: 450px;
+  transform: translate(-50%, 1%);
+  
+  color:black;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
+  text-align: justify;
+  font-family: sans-serif;
+  
+    -ms-transform: skewX(5deg); /* IE 9 */
+    -webkit-transform: skewX(5deg); /* Safari */
+    transform: skewX(5deg);
+
 }

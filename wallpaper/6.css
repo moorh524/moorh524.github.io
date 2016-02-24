@@ -15,7 +15,7 @@ a:hover, a:active { text-decoration: none; color:white }
 
 h4
     {
-    text-align: center;  
+    text-align: justify;  
     font-size: 40px;
     color: black;
     font-family: "gill-sans", sans-serif;
@@ -45,11 +45,16 @@ h4
 
 .centered-box {
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, 1%);
-  top: 200px;
+  top: 510px;
   font-family: sans-serif;
-  font-size:50px;
+  font-size:25px;
   padding: 20px;
+  text-align: justify;
+  
+    -ms-transform: skewX(10deg); /* IE 9 */
+    -webkit-transform: skewX(10deg); /* Safari */
+    transform: skewX(10deg);
+ 
 }
