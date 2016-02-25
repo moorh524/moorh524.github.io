@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: arial;
     color: black;
 }
 
@@ -12,7 +12,7 @@ html, body {
 h1 { text-align: right;
     color: black;
     font-size: 70px;
-    font-family: sans-serif;
+    font-family: arial;
     background-color:yellow;
     display:inline-block;
     position: fixed;
