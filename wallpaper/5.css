@@ -32,22 +32,22 @@ h4
     text-align: right;
     font-family: sans-serif;
     position:fixed;
-    top: 90px;
+    top: 200px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:90px;
+    top:200px;
     right:30px;
     font-family: sans-serif;
 }
 
 .leftcentered-box {
   position: absolute;
-  top: 510px;
-  left: 28%;
+  top: 700px;
+  left: 5%;
   width: 450px;
   transform: translate(-50%, 1%);
   
@@ -68,8 +68,8 @@ h4
 
 .rightcentered-box {
   position: absolute;
-  top: 3px;
-  left: 115%;
+  top: 700px;
+  left: 45%;
   width: 450px;
   transform: translate(-50%, 1%);
   
@@ -80,8 +80,8 @@ h4
   text-align: justify;
   font-family: sans-serif;
   
-    -ms-transform: skewX(5deg); /* IE 9 */
-    -webkit-transform: skewX(5deg); /* Safari */
-    transform: skewX(5deg);
+    -ms-transform: skewX(7deg); /* IE 9 */
+    -webkit-transform: skewX(7deg); /* Safari */
+    transform: skewX(7deg);
 
 }

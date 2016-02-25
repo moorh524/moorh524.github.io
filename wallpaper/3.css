@@ -34,14 +34,14 @@ h4
     text-align: right;
     font-family: sans-serif;
     position:fixed;
-    top: 90px;
+    top: 200px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:90px;
+    top:200px;
     right:30px;
     font-family: sans-serif;
 }
@@ -49,7 +49,7 @@ h4
 .leftcentered-box {
   position: absolute;
   top: 510px;
-  left: 28%;
+  left: 30%;
   width: 450px;
   transform: translate(-50%, 1%);
   
@@ -59,14 +59,16 @@ h4
   padding-top: 0px;
   text-align: justify;
   font-family: sans-serif;
+  
+ 
 
 }
 
 
 .rightcentered-box {
   position: absolute;
-  top: 3px;
-  left: 115%;
+  top: 510px;
+  left: 70%;
   width: 450px;
   transform: translate(-50%, 1%);
   

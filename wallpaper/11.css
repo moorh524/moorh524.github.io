@@ -19,14 +19,14 @@ a:hover, a:active { text-decoration: none; color:white }
     text-align: right;
     font-family: "gill-sans", sans-serif;
     position:fixed;
-    top: 90px;
+    top: 200px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:90px;
+    top:200px;
     right:30px;
     font-family: "gill-sans", sans-serif;
 }

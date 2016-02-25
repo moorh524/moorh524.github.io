@@ -30,7 +30,7 @@ p   {
     text-align: right;
     font-family: "gill-sans" sans-serif;
     position:fixed;
-    top:90px;
+    top:200px;
     left:30px;
     
 }
@@ -38,7 +38,7 @@ p   {
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:90px;
+    top:200px;
     right:30px;
     
 }

@@ -47,14 +47,14 @@ h4
     text-align: right;
     font-family: "gill-sans" sans-serif;
     position:fixed;
-    top: 90px;
+    top: 200px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:90px;
+    top:200px;
     right:30px;
 }
     
@@ -67,7 +67,7 @@ body
 .leftcentered-box {
   position: absolute;
   top: 510px;
-  left: 28%;
+  left: 30%;
   width: 450px;
   transform: translate(-50%, 1%);
   
@@ -84,7 +84,7 @@ body
 
 .rightcentered-box {
   position: absolute;
-  top: 3px;
+  top: -21px;
   left: 115%;
   width: 450px;
   transform: translate(-50%, 1%);

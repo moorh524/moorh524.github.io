@@ -34,14 +34,14 @@ h4
     text-align: right;
     font-family: "gill-sans" sans-serif;
     position:fixed;
-    top: 90px;
+    top: 200px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:90px;
+    top:200px;
     right:30px;
 }
     
@@ -51,10 +51,11 @@ body
     color: black;
     }
     
+    
 .leftcentered-box {
   position: absolute;
   top: 510px;
-  left: 28%;
+  left: 30%;
   width: 450px;
   transform: translate(-50%, 1%);
   
@@ -63,14 +64,16 @@ body
   padding: 160px;
   padding-top: 0px;
   text-align: justify;
+  
+ 
 
 }
 
 
 .rightcentered-box {
   position: absolute;
-  top: 3px;
-  left: 115%;
+  top: 510px;
+  left: 70%;
   width: 450px;
   transform: translate(-50%, 1%);
   

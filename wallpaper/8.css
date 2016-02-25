@@ -32,28 +32,31 @@ h4
     text-align: right;
     font-family: sans-serif;
     position:fixed;
-    top: 90px;
+    top: 200px;
     left:30px;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:90px;
+    top:200px;
     right:30px;
     font-family: sans-serif;
 }
 
 .centered-box {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 540px;
+  left: 14%;
+  width: 600px;
   transform: translate(-50%, 1%);
-  top: 510px;
-  font-family: sans-serif;
+  
+  color:black;
   font-size:25px;
-  padding: 20px;
+  padding: 160px;
+  padding-top: 0px;
   text-align: justify;
+  font-family: sans-serif;
   
   -ms-transform: skewX(-1deg); /* IE 9 */
     -webkit-transform: skewX(-1deg); /* Safari */
