@@ -1,19 +1,13 @@
-.welcome { 
-  top:0;
-  position:absolute;
-  background: url(welcome.jpg) repeat-y 0 0; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width:100%;
-  min-height:700px;
-  z-index:-1;
-  margin:0;
-  padding:0;
+
+
+
+
+img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:-1;
 }
-
-
 a:link {
     text-decoration: none;
 }
