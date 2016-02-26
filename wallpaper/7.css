@@ -43,11 +43,11 @@ h4
     font-family: sans-serif;
 }
 
-.centered-box {
+.leftcentered-box {
   position: absolute;
-  top: 540px;
-  left: 23%;
-  width: 600px;
+  top: 510px;
+  left: 5%;
+  width: 450px;
   transform: translate(-50%, 1%);
   
   color:black;
@@ -57,8 +57,30 @@ h4
   text-align: justify;
   font-family: sans-serif;
   
+  -ms-transform: skewX(7deg); /* IE 9 */
+    -webkit-transform: skewX(7deg); /* Safari */
+    transform: skewX(7deg);
+ 
+
+}
+
+
+.rightcentered-box {
+  position: absolute;
+  top: 510px;
+  left: 45%;
+  width: 450px;
+  transform: translate(-50%, 1%);
   
-    -ms-transform: skewX(12deg); /* IE 9 */
-    -webkit-transform: skewX(12deg); /* Safari */
-    transform: skewX(12deg);
+  color:black;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
+  text-align: justify;
+  font-family: sans-serif;
+  
+    -ms-transform: skewX(9deg); /* IE 9 */
+    -webkit-transform: skewX(9deg); /* Safari */
+    transform: skewX(9deg);
+
 }

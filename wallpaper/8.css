@@ -44,11 +44,11 @@ h4
     font-family: sans-serif;
 }
 
-.centered-box {
+.leftcentered-box {
   position: absolute;
-  top: 540px;
-  left: 14%;
-  width: 600px;
+  top: 510px;
+  left: 5%;
+  width: 450px;
   transform: translate(-50%, 1%);
   
   color:black;
@@ -61,4 +61,27 @@ h4
   -ms-transform: skewX(-1deg); /* IE 9 */
     -webkit-transform: skewX(-1deg); /* Safari */
     transform: skewX(-1deg);
+ 
+
+}
+
+
+.rightcentered-box {
+  position: absolute;
+  top: 510px;
+  left: 45%;
+  width: 450px;
+  transform: translate(-50%, 1%);
+  
+  color:black;
+  font-size:25px;
+  padding: 160px;
+  padding-top: 0px;
+  text-align: justify;
+  font-family: sans-serif;
+  
+    -ms-transform: skewX(-1deg); /* IE 9 */
+    -webkit-transform: skewX(-1deg); /* Safari */
+    transform: skewX(-1deg);
+
 }

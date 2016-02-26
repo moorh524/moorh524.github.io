@@ -13,6 +13,7 @@ a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:black; }
 a:hover, a:active { text-decoration: none; color:white }
 
+
     
 .left-nav {
     font-size: 40px;
@@ -34,11 +35,27 @@ a:hover, a:active { text-decoration: none; color:white }
 
 .centered-box {
   position: absolute;
-  top: 510px;
+  top: 300px;
   left: 50%;
   transform: translate(-50%, 1%);
   font-family: sans-serif;
   font-size:25px;
   padding: 20px;
   text-align: justify;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+     -ms-transform: skewX(3deg); /* IE 9 */
+    -webkit-transform: skewX(3deg); /* Safari */
+    transform: skewX(39deg);
+    width: 150%;
+}
+
+h4 {
+    font-size: 70px;
+    font-family: sans-serif;
+    width: 140%;
+    margin-left: -127px;
 }

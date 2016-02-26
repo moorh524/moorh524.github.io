@@ -42,3 +42,12 @@ a:hover, a:active { text-decoration: none; color:white }
   padding: 20px;
   text-align: justify;
 }
+
+h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+     -ms-transform: skewX(3deg); /* IE 9 */
+    -webkit-transform: skewX(3deg); /* Safari */
+    transform: skewX(-7deg);
+    width: 150%;
+}
