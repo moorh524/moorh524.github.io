@@ -1,4 +1,11 @@
 
+img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:-1;
+}
+
 h1
     {
     text-align: center;  
