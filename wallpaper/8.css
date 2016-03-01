@@ -64,9 +64,9 @@ h4
   text-align: justify;
   font-family: sans-serif;
   
-  -ms-transform: skewX(-1deg); /* IE 9 */
-    -webkit-transform: skewX(-1deg); /* Safari */
-    transform: skewX(-1deg);
+  -ms-transform: skewX(11deg); /* IE 9 */
+    -webkit-transform: skewX(11deg); /* Safari */
+    transform: skewX(11deg);
  
 
 }
@@ -86,8 +86,8 @@ h4
   text-align: justify;
   font-family: sans-serif;
   
-    -ms-transform: skewX(-1deg); /* IE 9 */
-    -webkit-transform: skewX(-1deg); /* Safari */
-    transform: skewX(-1deg);
+    -ms-transform: skewX(11deg); /* IE 9 */
+    -webkit-transform: skewX(11deg); /* Safari */
+    transform: skewX(11deg);
 
 }
