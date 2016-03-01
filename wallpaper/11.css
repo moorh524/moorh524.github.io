@@ -1,9 +1,25 @@
+img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:-1;
+}
+
 h1
     {
     text-align: center;  
     font-size: 70px;
     color: black;
     font-family: "gill-sans", sans-serif;
+    }
+    
+h3
+    {
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+    margin-right: 30%;
     }
 a:link {
     text-decoration: none;
@@ -31,16 +47,7 @@ a:hover, a:active { text-decoration: none; color:white }
     font-family: "gill-sans", sans-serif;
 }
 
-.centered-box {
-  position: absolute;
-  top: 300px;
-  left: 50%;
-  transform: translate(-50%, 1%);
-  font-family: sans-serif;
-  font-size:25px;
-  padding: 20px;
-  text-align: justify;
-}
+
 
 h4
     {
@@ -48,5 +55,68 @@ h4
     font-size: 70px;
     color: black;
     font-family: "gill-sans", sans-serif;
-    margin-top: 2000px;
+    margin-top: 600px;
     }
+    
+h5
+    {
+    text-align: justify;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+        
+    }
+    
+h6 {
+    font-size: 40px;
+    font-family: sans-serif;
+     -ms-transform: skewX(-1deg); /* IE 9 */
+    -webkit-transform: skewX(-1deg); /* Safari */
+    transform: skewX(-1deg);
+    width: 150%;
+    margin-left: -200px;
+}
+
+.centered-box {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 1%);
+  top: 300px;
+  font-family: sans-serif;
+  font-size:25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.yo {
+    position: absolute;
+    margin-left: 30px;
+    width: 103px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: justify;
+    
+}
+
+.medium {
+    position: absolute;
+    left: 50%;
+  top: 300px;
+  font-family: sans-serif;
+  font-size:25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.other {
+    position: absolute;
+    left: 3%;
+  top: 700px;
+  font-family: sans-serif;
+  font-size:25px;
+  padding: 20px;
+  text-align: justify;
+  color: black;
+}
