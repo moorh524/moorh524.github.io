@@ -7,10 +7,10 @@ img {
 a:link {
     text-decoration: none;
 }
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:white; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:white }
+a:link {color: black;}      /* unvisited link */
+a:visited {color: black;}   /* visited link */
+a:hover {color: white;}     /* mouse over link */
+a:active {color: black;}    /* selected link */
 
 h1
     {
