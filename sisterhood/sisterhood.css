@@ -1,0 +1,25 @@
+img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    padding-top: 0px;
+    border-bottom: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+       a:link {color: black;}      /* unvisited link */
+       a:visited {color: black;}   /* visited link */
+       a:hover {color: white;}     /* mouse over link */
+       a:active {color: black;}    /* selected link */
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
