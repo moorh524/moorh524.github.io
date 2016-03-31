@@ -14,8 +14,7 @@ img {
 
 img:link {
     text-decoration: none;
-    font-size: 20px;
-    font-family: futura;
+   
     
 }
 
@@ -36,7 +35,7 @@ h1 {
 	top: -50px;
 	left: 85px;
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	-webkit-transform: rotate(10deg); 
 
 
@@ -49,7 +48,7 @@ h1 {
 	top: -50px;
 	left: 185px;
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	-webkit-transform: rotate(10deg); 
 }
 
@@ -60,17 +59,18 @@ h1 {
 	top: -50px;
 	left: 285px;
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	-webkit-transform: rotate(10deg); 
 }
 
 .oh {
     color: white;
     font-size: 90px;
-    margin-top: 37.3%;
+    margin-top: 35.1%;
     margin-left: 492px;
     font-family: futura;
     z-index: -1;
+    position: fixed;
 
     
 }
@@ -78,10 +78,11 @@ h1 {
 .has {
     color: white;
     font-size: 90px;
-    margin-top: -53.8%;
+    margin-top: -50.8%;
     margin-left: 1121px;
     width: 1000px;
     font-family: futura;
+    
     
 }
 
@@ -93,15 +94,17 @@ h1 {
     margin-left: 1121px;
     width: 1000px;
     font-family: futura;
+    
 }
 
 .far {
     color: white;
     font-size: 90px;
-    margin-top: -71%;
+    margin-top: -67%;
     margin-left: 1870px;
     width: 1500px;
     font-family: futura;
+    position: absolute;
   
     
 }
@@ -113,7 +116,7 @@ h1 {
     margin-left: 1870px;
     width: 1500px;
     font-family: futura;
-  
+    position: absolute;
     
 }
 
@@ -124,15 +127,17 @@ h1 {
     margin-left: 3025px;
     width: 1500px;
     font-family: futura;
+    position: absolute;
 }
 
 .what {
     color: white;
     font-size: 90px;
-    margin-top: -145%;
+    margin-top: -140.5%;
     margin-left: 4408px;
     width: 2000px;
     font-family: futura;
+    position: absolute;
 }
 
 .murmurs {
@@ -142,6 +147,7 @@ h1 {
     margin-left: 4395px;
     width: 1500px;
     font-family: futura;
+    position: absolute;
 }
 
 
