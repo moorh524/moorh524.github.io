@@ -28,63 +28,22 @@ h1 {
 }
 
 
-.rectangle1 {
-	width: 50px;
-	height: 800px;
-	background-color: white;
-	top: -50px;
-	left: 85px;
-	z-index: 1;
-	position: fixed;
-	-webkit-transform: rotate(10deg); 
 
-
-}
-
-.rectangle2 {
-    width: 40px;
-	height: 800px;
-	background-color: white;
-	top: -50px;
-	left: 185px;
-	z-index: 1;
-	position: fixed;
-	-webkit-transform: rotate(10deg); 
-}
-
-.rectangle3 {
-    width: 35px;
-	height: 800px;
-	background-color: white;
-	top: -50px;
-	left: 285px;
-	z-index: 1;
-	position: fixed;
-	-webkit-transform: rotate(10deg); 
-}
 
 .oh {
     color: white;
-    font-size: 90px;
-    margin-top: 35.1%;
+    font-size: 290px;
+    margin-top: 20.1%;
     margin-left: 492px;
+    width: 500px;
     font-family: futura;
     z-index: -1;
-    position: fixed;
+    position: absolute;
 
     
 }
 
-.has {
-    color: white;
-    font-size: 90px;
-    margin-top: -50.8%;
-    margin-left: 1121px;
-    width: 1000px;
-    font-family: futura;
-    
-    
-}
+
 
 
 .little {
@@ -97,17 +56,7 @@ h1 {
     
 }
 
-.far {
-    color: white;
-    font-size: 90px;
-    margin-top: -67%;
-    margin-left: 1870px;
-    width: 1500px;
-    font-family: futura;
-    position: absolute;
-  
-    
-}
+
 
 .with {
     color: white;
@@ -122,29 +71,21 @@ h1 {
 
 .blue {
     color: white;
-    font-size: 90px;
+    font-size: 170px;
     margin-top: -30%;
     margin-left: 3025px;
-    width: 1500px;
+    width: 1900px;
     font-family: futura;
     position: absolute;
 }
 
-.what {
-    color: white;
-    font-size: 90px;
-    margin-top: -140.5%;
-    margin-left: 4408px;
-    width: 2000px;
-    font-family: futura;
-    position: absolute;
-}
+
 
 .murmurs {
     color: white;
     font-size: 90px;
-    margin-top: 120%;
-    margin-left: 4395px;
+    margin-top: 165%;
+    margin-left: 2595px;
     width: 1500px;
     font-family: futura;
     position: absolute;
