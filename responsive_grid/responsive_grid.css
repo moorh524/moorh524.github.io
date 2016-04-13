@@ -1,0 +1,30 @@
+#left {
+    min-height:300px;
+    top: 0px;
+    width: 23%;
+    position:relative;
+    display:inline-block;
+    background-color: yellow;
+     margin:2%;
+    z-index: 1;
+}
+
+#center {
+    min-height:300px;
+    width: 23%;
+    background-color: red;
+    position:relative;
+    display:inline-block;
+    z-index: 1;
+     margin:2%;
+}
+
+#right {
+    min-height:300px;
+    width: 23%;
+    background-color: green;
+    position:relative;
+    display:inline-block;
+    z-index: 1;
+    margin:2%;
+}

@@ -388,9 +388,9 @@
 	function drawCanvasPath( context, path ) {
 		var i = 0;
 
-		context.shadowBlur = 15;
+		context.shadowBlur = 0;
 		context.shadowColor = "black";
-		context.strokeStyle = "white";
+		context.strokeStyle = "black";
 		context.lineJoin = "round";
 		context.lineCap = "round";
 		context.lineWidth = 10;

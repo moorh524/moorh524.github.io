@@ -1,4 +1,5 @@
 // scroll path
+
 $(document).ready(function() {
     console.log( "ready!" );
 
@@ -27,19 +28,27 @@ $(document).ready(function() {
     // when you get to certain points. That might be something to
     // explore in the design? I did something just to show you how
     // it works.
-    path.moveTo(0,0)
-        .lineTo(2000,0)
+    path.moveTo(200,200)
+        .lineTo(760,200)
         .lineTo(500,2000, {
             rotate: 2 * Math.PI,
-            callback: function() {
-                $('body').css('background-color','pink')
-            },
-            name: "myPath"
+        })
+        .lineTo(900,2000)
+        .lineTo(2199,2000)
+        .lineTo(2222, 450)
+        .lineTo(3000,600)
+        // .lineTo(450, 750)
+        .lineTo(450,750, {
+            rotate: 1 * Math.PI,
         });
+        
 
     // Finally this initializes the path on the screen. I've turned
     // I left the line on so you can see what you're drawing, but
     // you can comment that out and it will disappear.
+    
+    
+    //DRAW PATH= FALSE TO GET RID OF LINE
     $(".scroll-container").scrollPath({
         drawPath: true,
         scrollBar: false,
