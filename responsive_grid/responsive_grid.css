@@ -28,3 +28,20 @@
     z-index: 1;
     margin:2%;
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    #right {
+    
+    width: 10%;
+    background-color: pink;
+    position:relative;
+    display:inline-block;
+    z-index: 1;
+    margin:2%;
+}
+}
+
