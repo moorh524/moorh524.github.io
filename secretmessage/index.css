@@ -84,7 +84,7 @@ h1 {
 .date {
     color: black;
     font-size: 190px;
-    margin-top: 5%;
+    margin-top: 3%;
 
     font-family: didot;
    
@@ -116,7 +116,7 @@ h1 {
 .write {
     color: black;
     font-size: 190px;
-    margin-top: 10%;
+    margin-top: 40%;
 
     font-family: didot;
     z-index: 888;
@@ -152,7 +152,7 @@ a:link {
     font-size: 40px;
     font-family: didot;
     margin-left: 45%;
-    margin-top: 65%;
+    margin-top: 100%;
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 4px;

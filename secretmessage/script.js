@@ -50,7 +50,7 @@ $(document).ready(function() {
     
     //DRAW PATH= FALSE TO GET RID OF LINE
     $(".scroll-container").scrollPath({
-        drawPath: true,
+        drawPath: false,
         scrollBar: false,
         wrapAround: true
     });
