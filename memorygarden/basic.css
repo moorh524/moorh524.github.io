@@ -1,0 +1,16 @@
+h1 {
+    font-family: arial;
+    text-align: center;  
+    font-size: 70px;
+    color: black;
+}
+
+img {
+    width: 100%;
+    z-index: 99;
+     position:absolute;
+    top:0px;
+    left:0px;
+    z-index:-1;
+}
+
