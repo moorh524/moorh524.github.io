@@ -3,7 +3,16 @@ h1 {
     text-align: center;  
     font-size: 70px;
     color: black;
+    margin-top: 20%;
 }
+
+a:link {
+    text-decoration: none;
+}
+a:link {color: black;}      /* unvisited link */
+a:visited {color: black;}   /* visited link */
+a:hover {color: white;}     /* mouse over link */
+a:active {color: black;}    /* selected link */
 
 img {
     width: 100%;
