@@ -18,19 +18,18 @@ a:hover {color: white;}     /* mouse over link */
 a:active {color: black;}    /* selected link */
 
 img {
-    width: 100%;
-    z-index: 99;
-     position:absolute;
+    position:absolute;
     top:0px;
     left:0px;
-    z-index:1;
+    z-index:-1;
+    width: 100%;
 }
+
 
 
 #largeWrapper{
 	margin:0px;
 	padding:50px;
-	background-color:yellow;
 	background-size:cover;
 	height:100%;
 }
@@ -38,24 +37,37 @@ img {
 #smallWrapper{
 	margin:0px;
 	padding:50px;
-	background-color:red;
 	background-size:cover;
 	height:100%;
+	font-family: arial;
+	text-align: justify;
 }
 
 
-
+.right-nav {
+    font-size: 100px;
+    position:relative;
+    top:-64px;
+    right:-102px;
+}
     
     
 @media (min-width: 0px) and (max-width: 400px) {
 
     #largeWrapper{
      display: none; 
+    }
+    #smallWrapper{
+        display: block;
+    }
+
+
 
 }
 
 @media (min-width: 401px) {
     
-    #largeWrapper{
-        display:none;
+    #smallWrapper{
+     display: none; 
     }
+}
