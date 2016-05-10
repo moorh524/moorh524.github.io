@@ -1,9 +1,12 @@
+
+    
 h1 {
     font-family: arial;
     text-align: center;  
     font-size: 70px;
     color: black;
     margin-top: 20%;
+    z-index: 999;
 }
 
 a:link {
@@ -20,6 +23,39 @@ img {
      position:absolute;
     top:0px;
     left:0px;
-    z-index:-1;
+    z-index:1;
 }
 
+
+#largeWrapper{
+	margin:0px;
+	padding:50px;
+	background-color:yellow;
+	background-size:cover;
+	height:100%;
+}
+
+#smallWrapper{
+	margin:0px;
+	padding:50px;
+	background-color:red;
+	background-size:cover;
+	height:100%;
+}
+
+
+
+    
+    
+@media (min-width: 0px) and (max-width: 400px) {
+
+    #largeWrapper{
+     display: none; 
+
+}
+
+@media (min-width: 401px) {
+    
+    #largeWrapper{
+        display:none;
+    }
