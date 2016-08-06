@@ -50,3 +50,12 @@ h4
     right:30px;
     font-family: sans-serif;
 }
+
+.backstage {
+    font-size: 40px;
+    position: fixed;
+    font-family: sans-serif;
+    top: 65%;
+    right: 20%;
+    
+}
