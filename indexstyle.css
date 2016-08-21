@@ -26,6 +26,20 @@ h1 { text-align: right;
     position: fixed;
 }
 
+h2 
+  {text-align: right;
+    color: black;
+    font-size: 56px;
+    font-family: sans-serif;
+    background-color:pink;
+    display:inline-block;
+  }
+
+.zine {
+  margin-left: 990px;
+  position: absolute;
+  margin-top: 3%;
+}
 
 h3 
   {text-align: right;
@@ -380,11 +394,7 @@ p {
   margin-top: 3660px;
 }
 
-.something46 {
-  margin-left: 990px;
-  position: absolute;
-  margin-top: 3760px;
-}
+
 h4 
   {text-align: right;
     color: black;
