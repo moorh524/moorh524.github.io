@@ -22,6 +22,16 @@ h1
     color: black;
     font-family: "gill-sans", sans-serif;
     }
+    
+h3
+    {
+    text-align: right;  
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 30%;
+    }
+    
 h4
     {
     text-align: center;  
@@ -59,4 +69,13 @@ h4
     top: 30%;
     font-family: sans-serif;
 
+}
+
+
+.zine {
+    font-size: 40px;
+    position:fixed;
+    top:600px;
+    right:30px;
+    font-family: serif;
 }
