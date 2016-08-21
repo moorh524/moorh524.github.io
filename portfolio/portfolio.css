@@ -20,14 +20,14 @@ h1
     font-size: 70px;
     color: black;
     font-family: "gill-sans", sans-serif;
-    margin-top: 190px;
+    margin-top: 18%;
     }
 h4
     {
     font-size: 40px;
     color: black;
     font-family: sans-serif;
-    margin-top: 250px;
+    margin-top: 25%;
     margin-left: 25%;
     margin-right: 25%;
     text-align: justify;
@@ -40,14 +40,14 @@ h4
     text-align: right;
     font-family: sans-serif;
     position:fixed;
-    top: 59%;
-    left:30%;
+    top: 85%;
+    right:20%;
 }
 
 .right-nav {
     font-size: 40px;
     position:fixed;
-    top:270px;
+    top:10%px;
     right:50%;
     left: 50%;
     font-family: sans-serif;
@@ -58,16 +58,22 @@ h4
 }
 
 .glass {
-    top: 100px;
+    top: 16%;
     left: -10%;
 }
 
 .books {
-    top: 100px;
+    top: 20%;
     right: -13%;
 }
 
 .contact {
-    top: 170px;
+    top: 30%;
     right: 4%;
+}
+
+.zine {
+    top: 20%;
+    right: 30%;
+    background-color: pink;
 }
